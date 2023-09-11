@@ -1,0 +1,16 @@
+.main {
+    background-color: beige;
+    color: brown;
+}
+
+.tit {
+    background-color: lightslategray;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+#resultado {
+    background-color: rgb(239, 49, 49);
+    color: aliceblue;
+    font-size: 35px;
+}

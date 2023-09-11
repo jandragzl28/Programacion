@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript" src="prompon.js"></script>
+    <title>Promedio ponderado</title>
+</head>
+
+<body>
+    
+    <div>
+        <h2 class="tit">Promedio Ponderado</h2>
+    </div>
+
+    <div class="main">
+        <img src="img/promedio ponderado.png" alt="Diagrama de flujo con promedio ponderado para tres calificaciones"  width="768" height="576">
+    </div>
+
+    <p id="resultado">El resultado va aquí</p>
+
+    <script>
+        let promediop = prompon();
+        document.getElementById("resultado").innerHTML = promediop;
+    </script>
+
+</body>
+</html>

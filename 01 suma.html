@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible"content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript"src="suma.js"></script>
+    <title>Suma</title>
+</head>
+
+<body>
+    <h2 class="tit">suma de dos numeros</h2>´
+    <p id="resultado"></p>
+
+    <script>
+        function sum () {
+
+                a=parseInt (prompt("introduce el primer numero"))
+                b=parseInt (prompt("introduce el segundo numero"))
+                return a+b;
+        }
+        let c =sum ();
+        document.getElementById("resultado").innerHTML = c;
+        </script>
+</body>
+</html>
